@@ -33,3 +33,12 @@ with access controls, such as needing to be on a certain VPN with a special user
 
 Ultimately, to prove to others that something happened or to easily communicate with others, a public blockchain will be the primary use case. It also provides a meeting place for users to come together and then spin up their own Just-In-Time specific-use-case blockchains.
 
+## Are you rolling your own crypto like stupid people?
+
+No. We use the industry standard libsodium to provide cryptographic primitives:
+
+https://download.libsodium.org/doc/
+
+## Where can I learn more?
+
+Join our Discord: https://myhush.org/discord
