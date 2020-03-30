@@ -1,4 +1,4 @@
-# HushChat - Signal On A Blockchain
+# HushChat - Signal Protcol On A Blockchain
 
 <img src="https://raw.githubusercontent.com/MyHush/hushchat/master/hushchat-sneak-preview.png">
 
@@ -8,13 +8,22 @@ HushChat is a protocol which is a particular use case of HushList protocol and w
 inspired by the design of Signal Protocol and uses many of the same cryptography and ideas, but does not actually use any
 code from Signal.
 
+## Is HushChat only compatible with HUSH mainnet?
+
+No, it's designed to run on any compatible Zcash Protocol chain, including all Hush Smart Chains:
+
+https://github.com/myhush/hush-smart-chains
+
+That being said, HushChat is being developed on HUSH mainnet and will the reference implementation will be for HUSH and our
+smart chains. Other coins are welcome to use our code but the focus in the near term is HUSH.
+
 ## Is HushChat a fork of Signal?
 
-No. We do not use code directly from Signal, but the ideas from the protocol and the GUI interface.
+No. We do not use code directly from Signal, but the ideas from the protocol and ideas/concepts from the GUI interface.
 
 ## Why not just use Signal?
 
-Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized.
+Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized 3rd parties.
 
 ## What is HushList?
 
