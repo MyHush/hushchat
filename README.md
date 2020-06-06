@@ -14,8 +14,7 @@ No, it's designed to run on any compatible Zcash Protocol chain, including all H
 
 https://github.com/myhush/hush-smart-chains
 
-That being said, HushChat is being developed on HUSH mainnet and will the reference implementation will be for HUSH and our
-smart chains. Other coins are welcome to use our code but the focus in the near term is HUSH.
+That being said, HushChat is being developed soley on HUSH mainnet. Other cryptocoins are encouraged to read our open source code and port it to their codebases.
 
 ## Is HushChat a fork of Signal?
 
@@ -33,6 +32,17 @@ Features of HushChat:
   * No Javascript in our desktop full or lite wallets
   * Multiple layers of encryption, in-flight and at-rest
   * Compatible with Tor
+  
+## What kind of interfaces will there be to HushChat?
+
+In order of development:
+
+  * Lite mode desktop
+  * Mobile
+  * Full mode desktop
+
+The Lite mode desktop version is nearing it's first release.
+ 
 
 ## What is HushList?
 
@@ -40,7 +50,7 @@ HushList is a protocol first published in 2017, which describes how to use Zcash
 including censorship-resistance: https://github.com/leto/hushlist/blob/master/whitepaper/protocol.pdf
 
 HushChat is basically one specialized way to use HushList Protocol, focused on near-real-time chat versus mailing list style
-communicaitons. The world is increasingly chat-based versus email-based HushChat is a response to that.
+communicaitons. The world is increasingly chat-based versus email-based and HushChat is a response to that.
 
 ## Will HushChat store messages on the blockchain like HushList does?
 
