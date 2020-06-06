@@ -38,8 +38,9 @@ Features of HushChat:
 In order of development:
 
   * Lite mode desktop
-  * Mobile
+  * Android Mobile
   * Full mode desktop
+  * iOS Mobile
 
 The Lite mode desktop version is nearing it's first release.
  
