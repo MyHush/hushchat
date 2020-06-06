@@ -1,4 +1,4 @@
-# HushChat - Signal Protcol On A Blockchain
+# HushChat - Signal-like Protocol on Hush
 
 <img src="https://raw.githubusercontent.com/MyHush/hushchat/master/hushchat-screen.png">
 
@@ -54,6 +54,9 @@ who constantly mine their personal data which can then be sold to advertising co
 with access controls, such as needing to be on a certain VPN with a special user/pass to connect to the network, could be used.
 
 Ultimately, to prove to others that something happened or to easily communicate with others, a public blockchain will be the primary use case. It also provides a meeting place for users to come together and then spin up their own Just-In-Time specific-use-case blockchains.
+
+Additionally, if somebody is trying to say false things about you, selectively disclosing data that proves your innocence
+can be very valuable. HushChat enables this use case, which Signal cannot possibly implement. Because Hush is backed up by Bitcoin hashrate security, the data cannot be censored or modified once it is notarized.
 
 ## Are you rolling your own crypto like stupid people?
 
