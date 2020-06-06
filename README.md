@@ -1,6 +1,6 @@
 # HushChat - Signal Protcol On A Blockchain
 
-<img src="https://raw.githubusercontent.com/MyHush/hushchat/master/hushchat-sneak-preview.png">
+<img src="https://raw.githubusercontent.com/MyHush/hushchat/master/hushchat-screen.png">
 
 ## What is HushChat?
 
