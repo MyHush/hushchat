@@ -39,6 +39,9 @@ Features of HushChat:
 HushList is a protocol first published in 2017, which describes how to use Zcash Protocol for various communications use cases,
 including censorship-resistance: https://github.com/leto/hushlist/blob/master/whitepaper/protocol.pdf
 
+HushChat is basically one specialized way to use HushList Protocol, focused on near-real-time chat versus mailing list style
+communicaitons. The world is increasingly chat-based versus email-based HushChat is a response to that.
+
 ## Will HushChat store messages on the blockchain like HushList does?
 
 Yes, data must be stored on-chain to have censorship resistance and HushChat can be thought of as a "flavor" of HushList.
@@ -65,6 +68,23 @@ Specifically, we use these part of libsodium:
   * Password Hashing API (Argon2id)
 
 In terms of hash functions, Blake2B and SHA256 are used.
+
+## How does HushChat protect my privacy?
+
+Glad you asked!! HushChat adds various layers of privacy on top of our "base" Zcash Protocol, heavily using libsodium.
+
+  * Every HushChat has per-conversation encryption
+    * This means that every time Alice talks to a new Bob, they have unique encryption keys compared to every other chat.
+  * Every HushChat conversation constantly "ratchets"
+    * The secret keys to each conversation constantly change, providing "forward secrecy"
+    * If you can steal the secret keys to one chat, it won't decrypt future chats nor can you impersonate future chats
+  * Every HushChat is additionally encrypted with a user passphrase, independent of wallet.dat private keys
+    * This means if your device is seized/liberated/stolen and your wallet.dat inserted in ChainAnalysis or similar blockchain analysis platform, your chats are encrypted blobs of useless information
+  * HushChats cannot be truncated, removed, reordered, duplicated or modified without being detected
+    * There are very strong encryption/decryption guarantees provided by libsodium secretstreams: https://doc.libsodium.org/secret-key_cryptography/secretstream
+
+
+
   
 ## Where can I learn more?
 
