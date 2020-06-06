@@ -23,7 +23,14 @@ No. We do not use code directly from Signal, but the ideas from the protocol and
 
 ## Why not just use Signal?
 
-Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized 3rd parties.
+Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties.
+
+Reasons to use HushChat:
+
+  * No phone numbers
+  * No centralized web servers
+  * No US-based organization
+  * No Javascript in our desktop client
 
 ## What is HushList?
 
@@ -49,6 +56,14 @@ No. We use the industry standard libsodium to provide cryptographic primitives:
 
 https://download.libsodium.org/doc/
 
+Specifically, we use these part of libsodium:
+
+  * Key Exchange
+  * Secretstreams
+  * Password Hashing API (Argon2id)
+
+In terms of hash functions, Blake2B and SHA256 are used.
+  
 ## Where can I learn more?
 
 Join our Discord: https://myhush.org/discord
