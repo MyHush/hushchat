@@ -30,7 +30,7 @@ Reasons to use HushChat:
   * No phone numbers
   * No centralized web servers
   * No US-based organization
-  * No Javascript in our desktop client
+  * No Javascript in our desktop full or lite wallets
 
 ## What is HushList?
 
