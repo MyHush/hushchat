@@ -75,13 +75,14 @@ No. We use the industry standard libsodium to provide cryptographic primitives:
 
 https://download.libsodium.org/doc/
 
-Specifically, we use these part of libsodium:
+Specifically, we use these parts of libsodium:
 
   * Key Exchange
   * Secretstreams
   * Password Hashing API (Argon2id)
-
-In terms of hash functions, Blake2B and SHA256 are used.
+  
+and potentially others. In terms of hash functions, Blake2B and SHA256 are used directly and internally by various
+libsodium functions. 
 
 ## How does HushChat protect my privacy?
 
