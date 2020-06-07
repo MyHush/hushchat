@@ -91,7 +91,7 @@ Glad you asked!! HushChat adds various layers of privacy on top of our "base" Zc
   * Every HushChat has per-conversation encryption
     * This means that every time Alice talks to a new Bob, they have unique encryption keys compared to every other chat.
   * Every HushChat conversation constantly "ratchets"
-    * The secret keys to each conversation constantly change, providing "forward secrecy"
+    * The shared keys to each conversation constantly change, providing "forward secrecy"
     * If you can steal the secret keys to one chat, it won't decrypt future chats nor can you impersonate future chats
   * HushChat Lite wallets have *FULL* wallet.dat encryption, leaving no plaintext accessible
     * A wallet.dat at rest therefore has two layers of encryption, wallet-level and chat-level
