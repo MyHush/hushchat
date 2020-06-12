@@ -87,7 +87,7 @@ libsodium functions.
 
 ## How does HushChat protect my privacy?
 
-Glad you asked!! HushChat adds various layers of privacy on top of our "base" Zcash Protocol, heavily using libsodium.
+Glad you asked!! HushChat adds various layers of privacy on top of our "base" Hush Protocol (itself an improvement on Zcash Protocol), heavily using libsodium.
 
   * Every HushChat has per-conversation encryption
     * This means that every time Alice talks to a new Bob, they have unique encryption keys compared to every other chat.
