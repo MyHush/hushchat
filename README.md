@@ -96,6 +96,7 @@ Glad you asked!! HushChat adds various layers of privacy on top of our "base" Hu
     * If you can steal the secret keys to one chat, it won't decrypt future chats nor can you impersonate future chats
   * HushChat Lite wallets have *FULL* wallet.dat encryption, leaving no plaintext accessible
     * A wallet.dat at rest therefore has two layers of encryption, wallet-level and chat-level
+    * HushChats on the Hush blockchain have *three* layers of encryption, since the encrypted memo field is only visible to sender and receiver
   * Every HushChat is additionally encrypted with a user passphrase, independent of wallet.dat private keys
     * This means if your device is seized/liberated/stolen and your wallet.dat inserted in ChainAnalysis or similar blockchain analysis platform, your chats are encrypted blobs of useless information
   * HushChats cannot be truncated, removed, reordered, duplicated or modified without being detected
