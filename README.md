@@ -31,7 +31,8 @@ Features of HushChat:
   * No US-based organization
   * No Javascript in our desktop full or lite wallets
   * Multiple layers of encryption, in-flight and at-rest
-  * Compatible with Tor
+  * Compatible with Tor (i2p support in progress)
+ 
   
 ## What kind of interfaces will there be to HushChat?
 
