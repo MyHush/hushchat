@@ -2,6 +2,18 @@
 
 <img src="https://raw.githubusercontent.com/MyHush/hushchat/master/hushchat-screen.png">
 
+
+## Features of HushChat:
+
+  * No phone numbers :lock: 
+  * No centralized web servers :chains: 
+  * No US-based organization :x: 
+  * No Javascript in our desktop full or lite wallets :no_entry_sign: 
+  * Multiple layers of encryption, in-flight and at-rest :shield: 
+  * Compatible with Tor (i2p support in progress) :dark_sunglasses:
+  * Emoji Support :poop:
+
+ 
 ## What is HushChat?
 
 HushChat is a protocol which is a particular use case of HushList protocol and which sits on top of Zcash Protocol. It is
@@ -23,18 +35,7 @@ No. We do not use code directly from Signal, but the ideas from the protocol and
 ## Why not just use Signal?
 
 Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties.
-  
-  ## Features of HushChat:
 
-  * No phone numbers :lock: 
-  * No centralized web servers :chains: 
-  * No US-based organization :x: 
-  * No Javascript in our desktop full or lite wallets :no_entry_sign: 
-  * Multiple layers of encryption, in-flight and at-rest :shield: 
-  * Compatible with Tor (i2p support in progress) :dark_sunglasses:
-  * Emoji Support :poop:
-
- 
   
 ## What kind of interfaces will there be to HushChat?
 
