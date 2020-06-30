@@ -23,15 +23,17 @@ No. We do not use code directly from Signal, but the ideas from the protocol and
 ## Why not just use Signal?
 
 Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties.
+  
+  ## Features of HushChat:
 
-Features of HushChat:
+  * No phone numbers :lock: 
+  * No centralized web servers :chains: 
+  * No US-based organization :x: 
+  * No Javascript in our desktop full or lite wallets :no_entry_sign: 
+  * Multiple layers of encryption, in-flight and at-rest :shield: 
+  * Compatible with Tor (i2p support in progress) :dark_sunglasses:
+  * Emoji Support :poop:
 
-  * No phone numbers
-  * No centralized web servers
-  * No US-based organization
-  * No Javascript in our desktop full or lite wallets
-  * Multiple layers of encryption, in-flight and at-rest
-  * Compatible with Tor (i2p support in progress)
  
   
 ## What kind of interfaces will there be to HushChat?
