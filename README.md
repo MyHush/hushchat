@@ -85,7 +85,7 @@ Specifically, we use these parts of libsodium:
   * Secretstreams
   * Password Hashing API (Argon2id)
   
-and potentially others. In terms of cryptographic hash functions, Blake2B and SHA256 are used directly and internally by various
+and potentially others. In terms of cryptographic hash functions, Blake3, Blake2B and SHA256 are used directly and internally by various
 libsodium functions. 
 
 ## How does HushChat protect my privacy?
