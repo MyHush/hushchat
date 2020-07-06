@@ -41,12 +41,12 @@ Signal requires phone numbers and is a centralized service. HushChat is complete
 
 In order of development:
 
-  * Lite mode desktop
-  * Android Mobile
-  * Full mode desktop
+  * Lite mode desktop (SDL)
+  * Android Mobile (SDA)
+  * Full mode desktop (SD)
   * iOS Mobile
 
-The Lite mode desktop version is nearing it's first release.
+The Lite mode desktop version is released in beta and our Android mobile version is in active development.
  
 
 ## What is HushList?
