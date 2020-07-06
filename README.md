@@ -7,7 +7,7 @@
 
   * No phone numbers :lock: 
   * No centralized web servers :chains: 
-  * No US-based organization :x: 
+  * No US-based or any kind of company/non-profit/organization :x: 
   * No Javascript in our desktop full or lite wallets :no_entry_sign: 
   * Multiple layers of encryption, in-flight and at-rest :shield: 
   * Compatible with Tor (i2p support in progress) :dark_sunglasses:
