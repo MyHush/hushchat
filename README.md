@@ -41,9 +41,9 @@ Signal requires phone numbers and is a centralized service. HushChat is complete
 
 In order of development:
 
-  * Lite mode desktop (SDL)
-  * Android Mobile (SDA)
-  * Full mode desktop (SD)
+  * Lite mode desktop ([SDL](https://github.com/MyHush/SilentDragonLite/releases) )
+  * Android Mobile ([SDA](https://github.com/MyHush/SilentDragonAndroid/releases) )
+  * Full mode desktop ( [SD](https://github.com/MyHush/SilentDragon/releases) )
   * iOS Mobile
 
 The Lite mode desktop version is released in beta and our Android mobile version is in active development.
