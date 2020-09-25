@@ -8,7 +8,8 @@
   * No phone numbers :lock: 
   * No centralized web servers :chains: 
   * No US-based or any kind of company/non-profit/organization :x: 
-  * No Javascript in our desktop full or lite wallets :no_entry_sign: 
+  * No Javascript/Electron in our desktop full or lite wallets :no_entry_sign: 
+  * [Plausible Deniability](https://en.wikipedia.org/wiki/Plausible_deniability)
   * Multiple layers of encryption, in-flight and at-rest :shield: 
   * Compatible with Tor (i2p support in progress) :dark_sunglasses:
   * Emoji Support :poop:
