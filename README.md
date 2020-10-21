@@ -48,10 +48,10 @@ Glad you asked!
     and which are not
   * The design of HushChat is such that every normal HUSH transaction looks like a chat, and every chat
     looks like the most common kind of Hush transaction. There is no way to tell if chat is being used in any
-    z2z transaction or not. This is caused "plausible deniability" and also there is no way to know *how many*
+    z2z transaction or not. This is caused ["plausible deniability"](https://en.wikipedia.org/wiki/Plausible_deniability) and also there is no way to know *how many*
     people are being communicated with, another kind of plausible deniability.
   * CCX and LOKI have none of the above properties, their systems are centralized and have very little privacy, if any.
-  * Additionally, Conceal and LOKI have no censorship-prevention and are not protected by Bitcoin Hashrate Security via Delayed-Proof-of-Work
+  * Additionally, Conceal and LOKI have no censorship-prevention and are not protected by Bitcoin Hashrate Security via [Delayed-Proof-of-Work](https://github.com/leto/mastering_komodo_dpow/blob/master/mastering_komodo_dpow.md)
   * CCX and LOKI are off-chain only, while HushChat can be either on-chain or off-chain.
   
 ## What kind of interfaces will there be to HushChat?
