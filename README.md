@@ -37,6 +37,22 @@ No. We do not use code directly from Signal, but the ideas from the protocol and
 
 Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties.
 
+## How does it compare to Conceal (CCX) and LOKI chat systems (Session) ?
+
+Glad you asked!
+
+  * Monero family coins have no encrypted data storage at the protocol level!
+  * Zcash Protocol coins have encrypted data at the protocol level via the memo field
+  * This means that Monero family coins are inherently inferior to build an encrypted chat system upon
+  * The encryption must be added at a higher level and really stands out, you know which transactions are chats
+    and which are not
+  * The design of HushChat is such that every normal HUSH transaction looks like a chat, and every chat
+    looks like the most common kind of Hush transaction. There is no way to tell if chat is being used in any
+    z2z transaction or not. This is caused "plausible deniability" and also there is no way to know *how many*
+    people are being communicated with, another kind of plausible deniability.
+  * CCX and LOKI have none of the above properties, their systems are centralized and have very little privacy, if any.
+  * Additionally, Conceal and LOKI have no censorship-prevention and are not protected by Bitcoin Hashrate Security via Delayed-Proof-of-Work
+  * CCX and LOKI are off-chain only, while HushChat can be either on-chain or off-chain.
   
 ## What kind of interfaces will there be to HushChat?
 
