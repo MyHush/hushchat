@@ -15,9 +15,9 @@
   * Emoji Support :poop:
 
  
-## What is HushChat?
+## What is HushChat Protocol ?
 
-HushChat is a protocol which is a particular use case of HushList protocol and which sits on top of Zcash Protocol. It is
+HushChat is a protocol which is a particular use case of HushList protocol and which sits on top of Hush Protocol, an improved Zcash Protocol. It is
 inspired by the design of Signal Protocol and uses many of the same cryptography and ideas, but does not actually use any
 code from Signal.
 
