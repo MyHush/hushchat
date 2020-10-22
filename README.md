@@ -32,6 +32,7 @@ That being said, HushChat is being developed soley on HUSH mainnet. Other crypto
 ## Is HushChat a fork of Signal?
 
 No. We do not use code directly from Signal, but the ideas from the protocol and ideas/concepts from the GUI interface.
+For instance, Signal Protocol has a concept of "ratcheting" and so do HushChat.
 
 ## Why not just use Signal?
 
