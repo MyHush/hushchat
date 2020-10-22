@@ -27,7 +27,7 @@ No, it's designed to run on any compatible Zcash Protocol chain, including all H
 
 https://github.com/myhush/hush-smart-chains
 
-That being said, HushChat is being developed soley on HUSH mainnet. Other cryptocoins are encouraged to read our open source code and port it to their codebases.
+That being said, HushChat is being developed soley on HUSH mainnet. Other cryptocoins are encouraged to read our Free Software and port it to their codebases with appropriate licensing.
 
 ## Is HushChat a fork of Signal?
 
