@@ -35,7 +35,7 @@ No. We do not use code directly from Signal, but the ideas from the protocol and
 
 ## Why not just use Signal?
 
-Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties.
+Signal requires phone numbers and is a centralized service. HushChat is completely anonymous and decentralized and requires absolutely no metadata be given to any centralized third parties. Signal is also not fully open source, the backend servers are NOT OPEN SOURCE, and so, Signal should be considered "open core" and not fully open source. HushChat is Free Software! We are about your freedom, Moxie cares about his Silicon Valley friends.
 
 ## How does it compare to Conceal (CCX) and LOKI chat systems (Session) ?
 
