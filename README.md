@@ -53,6 +53,7 @@ Glad you asked!
   * CCX and LOKI have none of the above properties, their systems are centralized and have very little privacy, if any.
   * Additionally, Conceal and LOKI have no censorship-prevention and are not protected by Bitcoin Hashrate Security via [Delayed-Proof-of-Work](https://github.com/leto/mastering_komodo_dpow/blob/master/mastering_komodo_dpow.md)
   * CCX and LOKI are off-chain only, while HushChat can be either on-chain or off-chain.
+  * CCX + LOKI use Javascript/web tech extensively and HushChat avoids that stuff like a disease
   
 ## What kind of interfaces will there be to HushChat?
 
